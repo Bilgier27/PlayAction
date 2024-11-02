@@ -34,12 +34,13 @@
     left: 0;
     background: rgb(0, 0, 0);
     z-index: 1;
+    
 }
 
 .sevices{
     padding: 80px 0;
 }
-.bg-Spiderman{
+.bg-Toma{
     background-image: linear-gradient(
         rgb(0,0,0,0.5),
         rgb(0,0,0,0.5)
@@ -48,20 +49,20 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
-.bg-Spiderman2{
+.bg-Toma2{
     background-image: linear-gradient(
         rgb(0,0,0,0.5),
         rgb(0,0,0,0.5)
-    ), url(../Assets//Spiderman2.jpg);
+    ), url(../Assets/wp2277094-star-wars-battlefront-ii-wallpapers.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
 }
-.bg-Spiderman3{
+.bg-Toma3{
     background-image: linear-gradient(
         rgb(0,0,0,0.5),
         rgb(0,0,0,0.5)
-    ), url(../Assets/Spiderman3.jpg);
+    ), url(../Assets/wp11570191-terrifier-2-wallpapers.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -122,4 +123,34 @@
         margin-bottom: 30px;
     }
 
+}
+.image-container {
+    width: 500px;
+    height: 700px; 
+    margin: 0 auto; 
+    overflow: hidden; 
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Asegura que la imagen cubra el contenedor */
+}
+
+.video-section {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.video-section video {
+    max-width: 100%;
+    height: auto;
+}
+.bg-danger{
+    width: 100%;
+    text-align: center;
+}
+
+.bil1 {
+    background: #d2a4a4;
 }
