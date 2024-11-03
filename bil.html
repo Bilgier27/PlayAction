@@ -4,10 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="Assets/pelota.png" type="image/x-icon">
+    <link rel="shortcut icon" href="Assets/rey.png" type="image/x-icon">
     <link rel="stylesheet" href="Css/bootstrap.min.css">
     <link rel="stylesheet" href="Css/style.css">
-    <title>PlayAction</title>
+    <title>Cine Royal</title>
 </head>
 
 <body>
@@ -16,7 +16,7 @@
         <nav class="navbar bg-dark navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
-                    <img src="Assets/pelota.png" alt="Bootstrap" width="50" height="50">
+                    <img src="Assets/rey.png" alt="Bootstrap" width="50" height="50">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -32,16 +32,17 @@
                             <a class="nav-link" href="#">Servicios</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
                                 Noticias
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Cartelera nueva</a></li>
+                                <li><a class="dropdown-item" href="#">Proximo evento</a></li>
                                 <li>
                                     <hr class="dropdown-divider">
                                 </li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                <li><a class="dropdown-item" href="#">Siempre el mejor</a></li>
                             </ul>
                         </li>
                         <li class="nav-item">
@@ -49,63 +50,93 @@
                         </li>
                     </ul>
                     <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Search</button>
+                        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Buscar</button>
                     </form>
                 </div>
             </div>
         </nav>
-        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+
+        <div id="carouselBilgier" class="carousel slide mb-5" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselBilgier" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselBilgier" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselBilgier" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
             <div class="carousel-inner">
-              <div class="carousel-item active" data-bs-interval="10000">
-                <img src="Assets/Spiderman.webp" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item" data-bs-interval="2000">
-                <img src="Assets/Spiderman2.jpg" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="Assets/Spiderman3.jpg" class="d-block w-100" alt="...">
-              </div>
+
+                <div class="carousel-item active">
+                    <img src="Assets/Avergers.jpg" class="d-block w-100" alt="">
+                    <div class="carousel-caption">
+                        <h5>Avengers</h5>
+                        <p>Los Avengers son un equipo de superhéroes de Marvel que luchan juntos contra poderosos villanos para proteger el mundo.
+                        </p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="Assets/wp7465495-cars-pixar-wallpapers.jpg" class="d-block w-100" alt="">
+                    <div class="carousel-caption">
+                        <h5>Cars</h5>
+                        <p>Cars es una película de Pixar sobre Rayo McQueen, un coche de carreras que descubre la amistad en un pequeño pueblo.
+                        </p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="Assets/151683-mascarilla-espacio-luz-limpieza-rojo-3840x2160.jpg" class="d-block w-100" alt="">
+                    <div class="carousel-caption">
+                        <h5>The Purge</h5>
+                        <p>La Purga es una serie de películas que presenta un futuro distópico donde, una vez al año, todos los delitos son legales durante 12 horas, lo que genera caos y violencia en la sociedad
+                        </p>
+                    </div>
+                </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselBilgier" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselBilgier" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
             </button>
-          </div>
-          <section>
+        </div>
+
+        <section class="services">
+
             <div class="container">
+
                 <div class="row">
-                    <div class="col-12 col-md-12 col-lg-4 mb-3">
-                        <div class="card text-white text-center bg-Spiderman pb-2">
+
+                    <div class="col-12 col-md-12 col-lg-4 mb-5">
+                        <div class="card text-white text-center bg-Toma pb-2">
                             <div class="card-body">
-                                <h3 class="card-tittle">Faros antinieblas</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit, dolorem.</p>
-                                <button class="btn bg-primary text-white">Leer Mas</button>
+                                <h3 class="card-tittle">Spiderman</h3>
+                                <p>Peter Parker, un joven con poderes arácnidos, protege Nueva York luchando contra el crimen y equilibrando su vida personal.</p>
+                                <a href="sitio1.html" class="btn bg-danger text-white">Ir a la pagina de Spiderman</a>
                             </div>
 
                         </div>
 
                     </div>
                     <div class="col-12 col-md-12 col-lg-4 mb-3">
-                        <div class="card text-white text-center bg-Spiderman2 pb-2">
+                        <div class="card text-white text-center bg-Toma2 pb-2">
                             <div class="card-body">
-                                <h3 class="card-tittle">Faros antinieblas</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit, dolorem.</p>
-                                <button class="btn bg-primary text-white">Leer Mas</button>
+                                <h3 class="card-tittle">Star Wars</h3>
+                                <p>Una épica galáctica que narra la lucha entre el bien y el mal en una galaxia lejana, con Jedi, Sith y batallas espaciales inolvidables.</p>
+                                <a href="sitio2.html" class="btn bg-primary text-white">Ir a la pagina de Star Wars</a>
                             </div>
 
                         </div>
                     </div>
+
                     <div class="col-12 col-md-12 col-lg-4 mb-3">
-                        <div class="card text-white text-center bg-Spiderman3 pb-2">
+                        <div class="card text-white text-center bg-Toma3 pb-2">
                             <div class="card-body">
-                                <h3 class="card-tittle">Juego, juego</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit, dolorem.</p>
-                                <button class="btn bg-primary text-white">Leer Mas</button>
+                                <h3 class="card-tittle">Terrifer</h3>
+                                <p>Un aterrador payaso llamado Art siembra el caos en una noche de Halloween, desatando terror y violencia en esta escalofriante historia.</p>
+                                <a href="sitio3.html" class="btn bg-black text-white">Ir a la pagina de Terrifer</a>
                             </div>
 
                         </div>
@@ -114,37 +145,38 @@
 
                 </div>
             </div>
-          </section>
-          <section class="section-icons">
+        </section>
+        
+        <section class="section-icons">
             <div class="container">
                 <div class="row">
 
                     <div class="col-12 col-md-12 col-lg-4 box-icons">
                         <div class="d-flex align-items-center">
-                            <img src="Assets/pelota.png" alt="Icono 1" width="50" height="50">
+                            <img src="Assets/megafono.png" alt="Icono 1" width="50" height="50">
                             <div class="ms-4">
-                                <h3>Las mejores noticias futboleras</h3>
-                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus, pariatur?</p>
+                                <h3>Últimas noticias del cine</h3>
+                                <p>Entérate de los estrenos, noticias y rumores más recientes en el mundo del cine</p>
                             </div>
                         </div>
 
                     </div>
                     <div class="col-12 col-md-12 col-lg-4 box-icons">
                         <div class="d-flex align-items-center">
-                            <img src="Assets/pelota.png" alt="Icono 1" width="50" height="50">
+                            <img src="Assets/pantalla-de-cine.png" alt="Icono 1" width="50" height="50">
                             <div class="ms-4">
-                                <h3>No te arrepentiras de visitarnos</h3>
-                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus, pariatur?</p>
+                                <h3>Próximos estrenos</h3>
+                                <p>Conoce las películas que llegarán pronto a la pantalla grande y marca tu calendario</p>
                             </div>
                         </div>
 
                     </div>
                     <div class="col-12 col-md-12 col-lg-4 box-icons">
                         <div class="d-flex align-items-center">
-                            <img src="Assets/pelota.png" alt="Icono 1" width="50" height="50">
+                            <img src="Assets/oferta-especial.png" alt="Icono 1" width="50" height="50">
                             <div class="ms-4">
-                                <h3>Regalos</h3>
-                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus, pariatur?</p>
+                                <h3>Ofertas y promociones de cine</h3>
+                                <p>Aprovecha las mejores ofertas en entradas, combos de cine y más</p>
                             </div>
                         </div>
 
@@ -152,30 +184,189 @@
                 </div>
             </div>
 
-          </section>
-          <section class="Mejores Clips">
+        </section>
+
+        <section class="Mejores Peliculas">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
                         <div class="section-header text-center pb-5">
-                            <h2>Mejores Clips</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, quia.</p>
+                            <h2>¿QUIÉN ES TU HÉROE FAVORITO?</h2>
+                            <p>Aqui encontraras cada heroe con su frase iconica</p>
                         </div>
 
                     </div>
 
-
                 </div>
                 <div class="row">
-                    
+
+                    <div class="col-12 col-md-12 col-lg-3 box-icons">
+                        <div class="card bg-light shadow-sm border-0 px-2 py3 mb-4">
+                            <div class="text-center">
+                                <img src="Assets/icons8-deadpool-480.png" alt="">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Deadpool</h5>
+                                <p>¿Quién necesita un plan cuando tienes un par de pistolas y un sentido del humor oscuro?
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-12 col-lg-3 box-icons">
+                        <div class="card bg-light shadow-sm border-0 px-2 py3 mb-4">
+                            <div class="text-center">
+                                <img src="Assets/icons8-hulk-480.png" alt="">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Hulk</h5>
+                                <p>Hulk es la forma poderosa de Bruce Banner, un coloso verde que surge con la ira, enfrentando amenazas con fuerza sobrehumana.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-12 col-lg-3 box-icons">
+                        <div class="card bg-light shadow-sm border-0 px-2 py3 mb-4">
+                            <div class="text-center">
+                                <img src="Assets/icons8-venom-head-480.png" alt="">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Venom</h5>
+                                <p>¡Yo soy Venom! No soy un héroe ni un villano, soy lo que tú quieras que sea. Pero cuando me necesites, te prometo que seré tu peor pesadilla.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-12 col-lg-3 box-icons">
+                        <div class="card bg-light shadow-sm border-0 px-2 py3 mb-4">
+                            <div class="text-center">
+                                <img src="Assets/icons8-thor-480.png" alt="">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Thor</h5>
+                                <p>La fuerza no se mide solo por el poder físico, sino también por la valentía y la lealtad que llevas en el corazón.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-12 col-lg-3 box-icons">
+                        <div class="card bg-light shadow-sm border-0 px-2 py3 mb-4">
+                            <div class="text-center">
+                                <img src="Assets/icons8-logan-x-men-480.png" alt="">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Logan</h5>
+                                <p>La vida no es una película. <br> No siempre hay un final feliz. A veces, simplemente hay que seguir adelante.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-12 col-lg-3 box-icons">
+                        <div class="card bg-light shadow-sm border-0 px-2 py3 mb-4">
+                            <div class="text-center">
+                                <img src="Assets/icons8-spider-man-head-480.png" alt="">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Spiderman</h5>
+                                <p>A veces, ser un héroe significa hacer sacrificios y no siempre tener el final feliz que esperabas.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-12 col-lg-3 box-icons">
+                        <div class="card bg-light shadow-sm border-0 px-2 py3 mb-4">
+                            <div class="text-center">
+                                <img src="Assets/icons8-wolverine-480.png" alt="">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Wolverine</h5>
+                                <p>Soy el mejor en lo que hago, pero lo que mejor hago no es muy agradable.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-12 col-lg-3 box-icons">
+                        <div class="card bg-light shadow-sm border-0 px-2 py3 mb-4">
+                            <div class="text-center">
+                                <img src="Assets/icons8-thanos-480.png" alt="">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Thanos</h5>
+                                <p>No pudiste vivir con tu propio fracaso, y ¿dónde te trajo eso? De vuelta a mí.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section class="banner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <h2>El mejor entretenimiento lo encuentras aqui</h2>
+                        <p>Exploramos las películas menos convencionales y los géneros olvidados. Aquí celebramos el cine alternativo, las joyas ocultas y las obras que desafían las normas, ofreciendo reseñas, análisis y recomendaciones que te invitan a ver más allá de lo comercial.</p>
+                        <div>
+                            <img src="Assets/gafas-3d.png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+        <section class="contact">
+            <div class="container mb-3 mb-lg-5">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="secction-header text-center pb-2 pb-lg-5">
+                            <h2>Contacto</h2>
+                            <p>¿Tienes alguna pregunta o necesitas más información?<br> ¡Escríbenos! Nuestro equipo estará encantado de ayudarte.</p>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="d-flex justify-content-center">
+                    <div class="col-12 col-md-12 col-lg-6 pt-4 pb-4">
+                        <form action="#" class="bg-light p-4 m-auto shadow-sm">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="mb-3">
+                                        <input class="form-control" placeholder="Nombre" type="text" required>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="mb-3">
+                                        <input class="form-control" placeholder="Email" type="email" required>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="mb-3">
+                                        <textarea class="form-control" placeholder="Mensaje" rows="3"
+                                            required></textarea>
+                                    </div>
+                                </div>
+                                <button class="btn btn-primary btn-lg btn-block mt-3" type="button">Enviar</button>
+
+                            </div>
+                        </form>
+
+                    </div>
 
                 </div>
 
             </div>
-          </section>
+        </section>
+        <footer class="bg-dark p-2 text-center">
+            <div class="container">
+                <p class="text-white">Todos los derechos reservados</p>
+            </div>
+
+        </footer>
 
     </header>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
